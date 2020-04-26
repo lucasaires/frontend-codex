@@ -14,7 +14,7 @@ export default function Session() {
       <div className="input-group mb-3">
         <input 
           type="text" 
-          class="form-control" 
+          className="form-control" 
           placeholder="Pesquisar por categoria..."
           style={{marginTop: 30, maxWidth: 1100}} />
       </div>
