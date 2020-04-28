@@ -3,7 +3,7 @@ import Header from '../Header';
 
 import './styles.css';
 
-export default function EditProduct() {
+export default function EditProduct(data) {
   const [count, setCount] = useState(0);
 
   function handleSubtraction(e) {
@@ -44,6 +44,10 @@ export default function EditProduct() {
           <button 
             className="btn btn-primary" 
             style={{ marginTop: 20 }}>Alterar dados</button>
+          
+          <button 
+            className="btn btn-primary" 
+            style={{ marginTop: 20, marginLeft:20 }}>Deletar item</button>
         </div>
       </div>
     </>
